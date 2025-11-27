@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>About — Kita Semua</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <style>
+      .about-intro {
+        max-width: 750px;
+        margin: 25px auto;
+        text-align: center;
+        line-height: 1.7;
+        color: #4e5d7a;
+        padding: 0 15px;
+      }
+
+      .about-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 24px;
+        margin-top: 30px;
+      }
+
+      .person-card {
+        background: #fff;
+        padding: 16px;
+        border-radius: 14px;
+        text-align: center;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: transform 0.3s;
+      }
+
+      .person-card:hover {
+        transform: translateY(-5px);
+      }
+
+      .person-card img {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 12px;
+        border-radius: 6px;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+      }
+
+      .person-card h2 {
+        margin: 8px 0 6px;
+        color: #3f7bd6;
+        font-size: 20px;
+      }
+
+      .person-card p {
+        color: #4e5d7a;
+        line-height: 1.5;
+        font-size: 14px;
+        margin: 0 auto;
+        max-width: 220px;
+      }
+
+      /* ================================
+         CREATOR CARD (Heryanti)
+      ==================================*/
+      .creator-card {
+        background: #fff;
+        padding: 20px;
+        max-width: 550px;
+        margin: 40px auto;
+        text-align: center;
+        border-radius: 14px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      }
+
+      .creator-card img {
+        width: 100%;
+        max-width: 220px;
+        height: auto;
+        margin-bottom: 15px;
+        border-radius: 8px;
+        box-shadow: 0 6px 25px rgba(0, 0, 0, 0.08);
+      }
+
+      .creator-card h2 {
+        margin-bottom: 5px;
+        color: #3f7bd6;
+      }
+
+      .creator-card p {
+        color: #4e5d7a;
+        line-height: 1.5;
+      }
+
+      /* Sosial Media Buttons */
+      .creator-social {
+        margin-top: 16px;
+        display: flex;
+        justify-content: center;
+        gap: 14px;
+      }
+
+      .creator-social a {
+        width: 38px;
+        height: 38px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background: #eef3ff;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+        transition: 0.25s;
+        overflow: hidden;
+      }
+
+      .creator-social a:hover {
+        background: #d8e2ff;
+        transform: translateY(-3px);
+      }
+
+      .creator-social img {
+        width: 22px;
+        height: 22px;
+        object-fit: contain;
+      }
+    </style>
+  </head>
+
+  <body class="page-about">
+    <header class="site-header">
+      <h1>Tentang Kita Semua</h1>
+      <p>Halaman ini dibuat untuk mengenal lebih dekat sosok yang dirayakan hari spesialnya dan sahabat-sahabat saya.</p>
+    </header>
+
+    <nav class="main-nav">
+      <a href="home.html">Home</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="memories.html">Memories</a>
+      <a href="about.html" class="active">About</a>
+      <a href="wishes.html">Wishes</a>
+    </nav>
+
+    <section class="about-intro">
+      Website ini dibuat untuk merayakan hari spesial beberapa sosok yang berarti:
+      <br />
+      <strong>Wulan</strong>, <strong>Lintang</strong>, <strong>Safrina</strong>,
+      <strong>Utami</strong>, & <strong>Excel</strong>.
+      <br /><br />
+      Di halaman ini, kamu bisa membaca sedikit tentang mereka, serta siapa yang membuat website ini sebagai bentuk apresiasi dan hadiah kecil penuh niat baik.
+    </section>
+
+    <main class="container about-grid">
+      <section class="person-card">
+        <img src="images/wulan.jpg" alt="Wulan" />
+        <h2>Wulan</h2>
+        <p>Dia selalu cerita oversharing lah, kalo di butuhin ada, dan selalu saja ada wacana dan entah kapan terwujudnya.</p>
+      </section>
+
+      <section class="person-card">
+        <img src="images/lintang.jpg" alt="Lintang" />
+        <h2>Lintang</h2>
+        <p>sesorang yang kalau di ajak main ayo saja, cuman kadang dia gak ontime, janji jam berapa dateng jam berapa sama aja kek kembarannya namanya aja berangkat bareng.</p>
+      </section>
+
+      <section class="person-card">
+        <img src="images/safrina.jpg" alt="Safrina" />
+        <h2>Safrina</h2>
+        <p>Dia cantik, selalu suka rambut dia, nasehat dia ada benernya cuman hati mungil dia sensitif, dia humoris kalau ada yg lucu ketawa dia lepas banget kek bahagianya selalu menular.</p>
+      </section>
+
+      <section class="person-card">
+        <img src="images/utami.jpg" alt="Utami" />
+        <h2>Utami</h2>
+        <p>Sosok yang darahnya selalu tinggi, kek kalo saya lemot dia marah marah aja kan kek astaga, ketawa dia nular, kalau curhat dia jawab udah tidur aja tidur. Dia hebat, terima kasih sudah hadir di kehidupan saya sebagai teman, sahabat maupun saudara</p>
+      </section>
+
+      <section class="person-card">
+        <img src="images/excel.jpg" alt="Excel" />
+        <h2>Excel</h2>
+        <p>Kalau dia tampil dengan aura yang tenang namun penuh percaya diri. Vibes dia beda sama yg lain. Kalau kumpul kek dia jadi pusat perhatian, pakaian yg selalu dia kenakan tampak menyatu sama diri dia. </p>
+      </section>
+    </main>
+
+    <section class="creator-card">
+      <img src="images/creator.jpg" alt="Creator" />
+      <h2>Dibuat Oleh</h2>
+
+      <p><strong>Heryanti Rima Mentari</strong></p>
+
+      <p class="creator-description">
+        Website ini dibuat sebagai ruang kecil yang penuh cerita tentang kita semua yang membawa banyak warna dalam keseharian dan hidup saya. 
+        Di sini, kamu bisa mengenal mereka lebih dekat lewat kata-kata, kesan, dan sedikit kenangan yang menggambarkan siapa mereka sebenarnya. 
+        Halaman ini juga menjadi bentuk apresiasi untuk persahabatan yang hangat, tawa yang sering meledak tanpa alasan, dan momen-momen sederhana 
+        yang terasa spesial karena kehadiran mereka.
+      </p>
+
+      <div class="creator-social">
+        <a href="https://instagram.com/heryanti_rm" 
+           target="_blank" 
+           rel="noopener noreferrer">
+          <img src="images/instagram.jpg" alt="Instagram" />
+        </a>
+        <a href="https://www.tiktok.com/@heryanti_rm" 
+           target="_blank" 
+           rel="noopener noreferrer">
+          <img src="images/tiktok.jpg" alt="TikTok" />
+        </a>
+
+        <a href="https://x.com/HeryantiRm" 
+           target="_blank" 
+           rel="noopener noreferrer">
+          <img src="images/x.jpg" alt="Twitter/X" />
+        </a>
+
+        <a href="https://line.me/ti/p/@heryanti_rm" 
+           target="_blank" 
+           rel="noopener noreferrer">
+          <img src="images/line.jpg" alt="LINE" />
+        </a>
+      </div>
+    </section>
+
+  </body>
+</html>

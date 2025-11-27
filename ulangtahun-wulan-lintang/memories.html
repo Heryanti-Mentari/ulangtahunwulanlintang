@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Memories</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page-memories">
+
+  <header class="site-header">
+    <h1>✨ Timeline Memories</h1>
+    <p class="subtitle">Memories.html ini hanya sedikit kilasan kita bersama</p>
+  </header>
+
+  <nav class="main-nav">
+    <a href="home.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="memories.html" class="active">Memories</a>
+    <a href="about.html">About</a>
+    <a href="wishes.html">Wishes</a>
+  </nav>
+
+  <main class="container">
+
+    <!-- Timeline Section -->
+    <section class="timeline">
+
+      <article class="timeline-item">
+        <img src="images/slide1.jpg" alt="">
+        <div>
+          <h3>2023</h3>
+          <p>Pertama kali ketemu lagi kita ke jualannya utami</p>
+        </div>
+      </article>
+
+      <article class="timeline-item">
+        <img src="images/dulu.jpg" alt="">
+        <div>
+          <h3>2024</h3>
+          <p>Pertama kali setelah berapa lama?</p>
+        </div>
+      </article>
+
+      <article class="timeline-item">
+        <img src="images/dulu2.jpg" alt="">
+        <div>
+          <h3>2024</h3>
+          <p>Ini kumpul lagi</p>
+        </div>
+      </article>
+
+      <article class="timeline-item">
+        <img src="images/studio10.jpg" alt="">
+        <div>
+          <h3>2025</h3>
+          <p>Ini kita setelah berbulan bulan gak ketemu baru ketemu kan meskipun kurang excel</p>
+        </div>
+      </article>
+
+      <article class="timeline-item">
+        <img src="images/studio8.jpg" alt="">
+        <div>
+          <h3>2025</h3>
+          <p>Kalau ini kurang 2 orang</p>
+        </div>
+      </article>
+
+    </section>
+
+    <!-- More Photos -->
+    <section class="small-gallery">
+      <h2 style="text-align:center; margin-bottom:16px;">More Photos</h2>
+      <div class="gallery-grid">
+        <img src="images/coklat.jpg" alt="">
+        <img src="images/dulu3.jpg" alt="Wulan">
+        <img src="images/mikir.jpg" alt="Lintang">
+      </div>
+    </section>
+
+  </main>
+
+  <canvas id="confettiCanvas" class="confetti-canvas"></canvas>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="js/confetti.js"></script>
+  <script>
+    startConfetti();
+  </script>
+
+</body>
+</html>
